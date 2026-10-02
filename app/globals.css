@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  --paper: #10161f;
+  --paper-raised: #161d29;
+  --ink: #ece6d8;
+  --ink-dim: #9aa1ad;
+  --rule: #2a3242;
+  --brass: #c9a15a;
+  --loss: #d3766a;
+  --gain: #8fb28a;
+
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-sans: "Inter", -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+select,
+button {
+  font-family: inherit;
+}

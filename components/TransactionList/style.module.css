@@ -1,0 +1,62 @@
+.empty {
+  color: var(--ink-dim);
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.description {
+  margin: 0;
+  font-size: 14px;
+}
+
+.meta {
+  margin: 0;
+  font-size: 12px;
+  color: var(--ink-dim);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+}
+
+.amount {
+  border: 1px solid rgba(158, 152, 152, 0.772);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.income {
+  color: var(--gain);
+  box-shadow: 0px 1.5px 1.5px 2.5px rgba(1, 255, 1, 0.500);
+}
+
+.expense {
+  color: var(--loss);
+  box-shadow: 0px 1.5px 1.5px 2.5px rgba(255, 77, 1, 0.5);
+}
+
+.deleteButton {
+  background: transparent;
+  border: none;
+  color: var(--ink-dim);
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+}
